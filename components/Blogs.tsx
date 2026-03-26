@@ -3,8 +3,8 @@ import { blogs } from "@/data/blogs";
 
 export const Blogs = () => {
   return (
-    <section id="blogs" className="py-20 px-4">
-      <div className="max-w-4xl mx-auto">
+    <section id="blogs" className="py-24 px-4">
+      <div className="max-w-5xl mx-auto">
         <h2 className="text-3xl font-bold mb-12 text-primary flex items-center gap-3">
           <LightningBolt />
           Blogs
@@ -16,7 +16,7 @@ export const Blogs = () => {
               href={blog.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="block p-6 border-2 border-border rounded-lg hover:border-primary bg-background-secondary relative overflow-hidden group"
+              className="block p-6 border border-border rounded-xl hover:border-primary/50 bg-background-secondary relative overflow-hidden group hover:shadow-lg hover:shadow-primary/5 hover:-translate-y-1 transition-all duration-200"
             >
               {/* Red cheek accent on hover */}
               <div className="absolute -top-4 -right-4 w-16 h-16 rounded-full bg-secondary/0 group-hover:bg-secondary/20 blur-xl" />

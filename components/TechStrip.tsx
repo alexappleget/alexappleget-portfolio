@@ -33,9 +33,9 @@ const techItems: ITechItemWithIcon[] = [
   { color: "#D97757", icon: <TbRobot />, name: "Claude Code" },
   { color: "#00A67E", icon: <TbRobot />, name: "Realtime AI" },
   { color: "#ffffff", icon: <TbBrandSocketIo />, name: "WebSockets" },
-  { color: "#FFCB05", icon: <TbTools />, name: "MCP Building" },
-  { color: "#FFCB05", icon: <TbRobot />, name: "LLM Building" },
-  { color: "#FFCB05", icon: <TbTools />, name: "AI Tools" },
+  { color: "#FCD34D", icon: <TbTools />, name: "MCP Building" },
+  { color: "#FCD34D", icon: <TbRobot />, name: "LLM Building" },
+  { color: "#FCD34D", icon: <TbTools />, name: "AI Tools" },
   { color: "#ffffff", icon: <SiVercel />, name: "Vercel" },
   { color: "#46E3B7", icon: <TbApi />, name: "Render" },
 ];
